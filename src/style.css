@@ -6,6 +6,9 @@ body {
   margin: 0;
 }
 
+
+/* navbar */
+
 .navbar {
   background-color: #FFFFFF;
   width: 100%;
@@ -16,12 +19,27 @@ body {
   left: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  font-family: Poppins;
+  color: #9c5aff;
+}
+
+.navbar p{
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #ff5a5f;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .logo {
   width: 150px;
   padding: 10px;
 }
+
+/* hero section */
 
 .hero {
   width: 100%;
@@ -74,6 +92,7 @@ section {
   display: flex;
   flex-direction: column;
   font-family: Poppins;
+  position: relative;
 }
 
 .card--image {
@@ -107,4 +126,14 @@ section {
 
 .gray {
   color: #918E9B;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
