@@ -44,11 +44,9 @@ body {
 
 .hero h1, .hero p {
   align-self: flex-start;
-  margin-left: 10px;
+  margin-left: 20px;
   font-family: Poppins;
 }
-
-
 
 
 .hero-img {
@@ -57,3 +55,56 @@ body {
 }
 
 
+/* experiences cards */
+section {
+  padding: 20px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
